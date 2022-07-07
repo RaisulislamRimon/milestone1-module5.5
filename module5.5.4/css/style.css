@@ -26,4 +26,11 @@ h3::before {
 }
 h3::after {
   content: " gello";
+  background-color: darkgray;
+  font-size: 10px;
+}
+
+.special::after {
+  content: " special";
+  background-color: darkgoldenrod;
 }
