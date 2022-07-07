@@ -15,3 +15,6 @@ li:third-child {
 li:nth-child(2n) {
   color: gray;
 }
+li:nth-child(2n + 1) {
+  color: orange;
+}
