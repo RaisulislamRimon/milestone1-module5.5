@@ -6,7 +6,6 @@ span {
   width: 250px; /* not working for inline element */
   height: 250px; /* not working for inline element */
 
-  display: inline-block;
 }
 
 div {
