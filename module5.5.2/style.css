@@ -1,15 +1,11 @@
 h1 {
   background-color: indianred;
-  /* display: inline; */
 }
 span {
   background-color: lawngreen;
   width: 250px; /* not working for inline element */
   height: 250px; /* not working for inline element */
-  /*   margin-top: 200px; /* not working for inline element * /
-  margin-bottom: 200px; / * not working for inline element * /
-  margin-right: 20px; / * working * /
-  margin-left: 20px; / * working * / */
+
   display: inline-block;
 }
 
@@ -27,6 +23,3 @@ h2 {
 p {
   background-color: mintcream;
 }
-/* a {
-  display: block;
-} */
