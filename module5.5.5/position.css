@@ -3,7 +3,6 @@
   width: 200px;
 }
 #ring {
-  position: relative;
+  position: absolute;
   top: -50px;
-  
 }
