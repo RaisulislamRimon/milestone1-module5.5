@@ -1,0 +1,13 @@
+li {
+  color: chocolate;
+}
+
+li:first-child {
+  color: palevioletred;
+}
+li:last-child {
+  color: green;
+}
+li:third-child {
+  color: blue;
+}
