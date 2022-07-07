@@ -2,11 +2,14 @@
   position: relative;
 }
 .swimming div {
-  border: 1px solid red;
+  border: 5px dashed red;
   width: 200px;
 }
 #ring {
-  position: fixed;
-  top: 0px;
-  left: 30px;
+  position: relative;
+  z-index: 1;
+}
+#water {
+  position: relative;
+  top: -75px;
 }
