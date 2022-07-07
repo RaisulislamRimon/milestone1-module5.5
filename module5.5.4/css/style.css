@@ -2,6 +2,7 @@ li {
   color: chocolate;
 }
 
+/* pseudo class  */
 li:first-child {
   color: palevioletred;
   background-color: cornflowerblue;
@@ -19,6 +20,7 @@ li:nth-child(2n + 1) {
   background-color: orange;
 }
 
+/* before and after : these are pseudo elements */
 h3::before {
   content: "Hello ";
 }
