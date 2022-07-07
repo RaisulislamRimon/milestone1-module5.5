@@ -1,0 +1,9 @@
+.swimming div {
+  border: 1px solid red;
+  width: 200px;
+}
+#ring {
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
