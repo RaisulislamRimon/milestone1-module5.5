@@ -4,10 +4,14 @@ li {
 
 li:first-child {
   color: palevioletred;
+  background-color: cornflowerblue;
 }
 li:last-child {
   color: green;
 }
 li:third-child {
   color: blue;
+}
+li:nth-child(2n) {
+  color: gray;
 }
