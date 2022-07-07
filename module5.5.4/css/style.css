@@ -16,5 +16,12 @@ li:nth-child(2n) {
   color: gray;
 }
 li:nth-child(2n + 1) {
-  color: orange;
+  background-color: orange;
+}
+
+h3::before {
+  content: "Hello ";
+}
+h3::after {
+  content: " World";
 }
