@@ -1,0 +1,36 @@
+li {
+  color: chocolate;
+}
+
+/* pseudo class  */
+li:first-child {
+  color: palevioletred;
+  background-color: cornflowerblue;
+}
+li:last-child {
+  color: green;
+}
+li:third-child {
+  color: blue;
+}
+li:nth-child(2n) {
+  color: gray;
+}
+li:nth-child(2n + 1) {
+  background-color: orange;
+}
+
+/* before and after : these are pseudo elements */
+h3::before {
+  content: "Hello ";
+}
+h3::after {
+  content: " gello";
+  background-color: darkgray;
+  font-size: 10px;
+}
+
+.special::after {
+  content: " special";
+  background-color: darkgoldenrod;
+}
