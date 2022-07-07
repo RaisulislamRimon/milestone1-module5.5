@@ -6,7 +6,7 @@
   width: 200px;
 }
 #ring {
-  position: sticky;
+  position: fixed;
   top: 0px;
   left: 30px;
 }
