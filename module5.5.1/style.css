@@ -1,5 +1,6 @@
 h1 {
   background-color: indianred;
+  display: inline;
 }
 span {
   background-color: lawngreen;
@@ -8,3 +9,7 @@ span {
 div {
   background-color: lightblue;
 }
+
+/* a {
+  display: block;
+} */
